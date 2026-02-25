@@ -1,0 +1,86 @@
+# GhostyGiveaway - Deutsche Sprachdatei
+# Unterstützt & Farbcodes und &#RRGGBB Hex-Codes
+
+prefix: "&8[&#FFD700GhostyGiveaway&8] &r"
+
+# --- Broadcast ---
+giveaway-start-line1: "&#FFD700&l★ GIVEAWAY GESTARTET ★"
+giveaway-start-line2: "&7Preis: &f{prize}"
+giveaway-start-line3: "&7Dauer: &f{time}"
+giveaway-start-line4: "&7Veranstalter: &f{host}"
+giveaway-start-line5: "&7Giveaway-ID: &f{id}"
+giveaway-join-text: "&a&l[ Hier klicken zum Mitmachen! ]"
+giveaway-join-hover: "&aKlicke hier um teilzunehmen!"
+giveaway-join-command: "/giveaway join {id}"
+
+# --- Erinnerung ---
+reminder: "&#FFD700&l★ &eGiveaway &f{id} &eendet in &f{time}&e! &7(Preis: &f{prize}&7) &#FFD700&l★"
+
+# --- Ende ---
+giveaway-end-winner: "&#FFD700&l★ GIVEAWAY BEENDET ★ &7Gewinner: &a{winner} &7| Preis: &f{prize} &7| ID: &f{id}"
+giveaway-end-no-winner: "&#FFD700&l★ &eGiveaway &f{id} &ewurde ohne &cTeilnehmer &ebeendet. &#FFD700&l★"
+giveaway-winner-notify: "&6Glückwunsch! &eDu hast &f{prize} &ebeim Giveaway &f{id} &egewonnen!"
+
+# --- Beitritt ---
+join-success: "{prefix}&aDu nimmst an Giveaway &e{id} &ateil! Viel Glück!"
+already-joined: "{prefix}&cDu nimmst an Giveaway &e{id} &cbereits teil!"
+giveaway-not-found: "{prefix}&cKein aktives Giveaway mit ID &e{id} &cgefunden!"
+giveaway-ended-msg: "{prefix}&cDieses Giveaway ist bereits beendet!"
+
+# --- GUI ---
+gui-title: "&#FFD700✦ &lGiveaway Einrichten &r&#FFD700✦"
+gui-prize-slot-name: "&eLege deinen Preis hier ab"
+gui-prize-slot-lore:
+  - "&7Shift-klicke einen Gegenstand"
+  - "&7aus deinem Inventar als Preis."
+gui-hours-name: "&b⏰ Stunden: &f{hours}"
+gui-hours-lore:
+  - "&7Linksklick: &f+1 Stunde"
+  - "&7Rechtsklick: &f-1 Stunde"
+  - "&7Shift+Links: &f+5 Stunden"
+  - "&7Shift+Rechts: &f-5 Stunden"
+gui-minutes-name: "&b⏱ Minuten: &f{minutes}"
+gui-minutes-lore:
+  - "&7Linksklick: &f+1 Minute"
+  - "&7Rechtsklick: &f-1 Minute"
+  - "&7Shift+Links: &f+10 Minuten"
+  - "&7Shift+Rechts: &f-10 Minuten"
+gui-start-name: "&a&l✔ GIVEAWAY STARTEN"
+gui-start-lore:
+  - "&7Dauer: &f{time}"
+  - "&7Preis: &f{prize}"
+  - ""
+  - "&aKlicken zum Starten!"
+gui-cancel-name: "&c&l✖ ABBRECHEN"
+gui-cancel-lore:
+  - "&7Klicke zum Abbrechen."
+  - "&7Dein Gegenstand wird zurückgegeben."
+gui-info-name: "&#FFD700✦ Giveaway Einrichten"
+gui-info-lore:
+  - "&7Shift-klicke deinen Preis in"
+  - "&7den &emittleren Slot&7."
+  - "&7Nutze die Uhr-Knöpfe für"
+  - "&7die Dauer."
+  - ""
+  - "&eAktuelle Dauer: &f{time}"
+
+# --- Befehle ---
+no-permission: "{prefix}&cKeine Berechtigung!"
+player-only: "{prefix}&cNur für Spieler!"
+reload-success: "{prefix}&aPlugin neu geladen!"
+giveaway-ended-admin: "{prefix}&aGiveaway &e{id} &abeendet!"
+no-active-giveaways: "{prefix}&cKeine aktiven Giveaways."
+active-giveaways-header: "{prefix}&eAktive Giveaways:"
+active-giveaway-entry: "  &8» &f{id} &7| Preis: &f{prize} &7| Verbleibend: &f{time} &7| Einträge: &f{count}"
+no-prize-set: "{prefix}&cBitte lege zuerst einen Preis fest!"
+no-time-set: "{prefix}&cBitte stelle mindestens 10 Sekunden ein!"
+giveaway-started-admin: "{prefix}&aGiveaway &e{id} &aerfolgreich gestartet!"
+
+# --- Hilfe ---
+help-header: "&8&m----------&r &#FFD700GhostyGiveaway &8&m----------"
+help-join: "&e/giveaway join <id> &7- Einem Giveaway beitreten"
+help-start: "&e/giveaway start &7- Setup-GUI öffnen"
+help-end: "&e/giveaway end <id> &7- Giveaway beenden (Admin)"
+help-list: "&e/giveaway list &7- Aktive Giveaways auflisten (Admin)"
+help-reload: "&e/giveaway reload &7- Plugin neu laden (Admin)"
+help-footer: "&8&m------------------------------------------"

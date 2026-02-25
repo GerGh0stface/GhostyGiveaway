@@ -1,0 +1,32 @@
+name: GhostyGiveaway
+version: 1.0.0
+main: ghostygiveaway.GhostyGiveaway
+api-version: '1.21'
+author: Ger_Gh0stface
+description: A fully customizable giveaway plugin.
+
+commands:
+  giveaway:
+    description: Main giveaway command.
+    usage: /giveaway <start|join|end|list|reload>
+    aliases: [ga, gw]
+
+permissions:
+  ghostygiveaway.admin:
+    description: Full access to all giveaway commands.
+    default: op
+  ghostygiveaway.start:
+    description: Allows starting a giveaway.
+    default: op
+  ghostygiveaway.end:
+    description: Allows ending a giveaway early.
+    default: op
+  ghostygiveaway.join:
+    description: Allows joining a giveaway.
+    default: true
+  ghostygiveaway.reload:
+    description: Allows reloading the plugin.
+    default: op
+  ghostygiveaway.list:
+    description: Allows listing active giveaways.
+    default: op

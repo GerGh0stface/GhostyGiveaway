@@ -1,0 +1,22 @@
+# GhostyGiveaway Configuration
+# by Ger_Gh0stface
+
+# Language to use. Available: en, de
+language: en
+
+# Reminder times in seconds before end
+reminders:
+  - 3600
+  - 1800
+  - 600
+  - 300
+  - 60
+  - 30
+  - 10
+  - 5
+
+# Minimum duration in seconds
+min-duration: 10
+
+# Maximum duration in seconds (604800 = 7 days)
+max-duration: 604800
